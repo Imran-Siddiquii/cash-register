@@ -1,0 +1,75 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    width:100vw;
+    /* align-items: center; */
+    background-color: rgb(238, 232, 232);
+}
+.calculator{
+  width: 50vw;
+  height: 70vh;
+  background-color: white;
+  margin: 15px auto;
+  /* align-items: center; */
+  text-align: center;
+  box-shadow: 1px 3px 5px 4px lightgray;
+  border-radius: 5px;
+}
+
+.calculator header p{
+   display: block;
+   font-size: 2rem;
+   margin: 10px auto;
+}
+
+.calculator p{
+  display: block;
+  font-size: 1.3rem;
+  margin: 10px auto;
+}
+.input1, .input2 label{
+  font-size: 1.2rem;
+  padding: 5px 10px;
+}
+.input1 input{
+  position: relative;
+  width: 20vw;
+  height: 18px;
+  padding: 10px;
+
+}
+  
+.input2 input{
+  position: relative;
+  width: 20vw;
+  height: 18px;
+  padding: 10px;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 8px 12px;
+  align-items: center;
+  margin: 0px auto;
+}
+td{
+  padding: 8px 12px;
+}
+ 
+#check-button{
+  padding: 8px 10px;
+  background-color: rgb(139, 131, 131);
+  border: none;
+  border-radius: 3px;
+  font-size: 1.3rem;
+  color: white;
+  margin: 10px auto;
+}
+table caption{
+  font-size: 25px;
+  margin: 5px auto;
+}

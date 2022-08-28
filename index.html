@@ -5,8 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cash Register</title>
+    <link rel="stylesheet" href="index.css">
 </head>
-<body>
-    
-</body>
+<body> 
+    <section class="calculator">
+    <header>
+        <p>Cash Register</p>
+    </header>
+      <p>Calculate your bill</p>
+     <div class="input1"> 
+        <label for="bill-amount">Bill Amount </label>
+      <input type="number" id="bill-amount">
+    </div> <div class="input2"><label for="given-amount">Given Amount</label>
+      <input type="number" id="given-amount">
+    </div>
+      <p class="error-show"></p>
+      <button id="check-button">Check</button>
+     
+      <table >
+        <caption>Amount to be return in note</caption>
+        <tr>
+        <th> Return notes</th>
+        <td class="noOfNote"></td>
+        <td class="noOfNote"></td>
+        <td class="noOfNote"></td>
+        <td class="noOfNote"></td>
+        <td class="noOfNote"></td>
+        <td class="noOfNote"></td>
+        <td class="noOfNote"></td>
+    </tr>
+            <tr>
+            <th>Number of notes</th>
+            <td>2000</td>
+            <td>500</td>
+            <td>100</td>
+            <td>50</td>
+            <td>10</td>
+            <td>5</td>
+            <td>1</td>
+
+        </tr>    
+      </table>
+    </section>
+      <script src="index.js"></script>
+    </body>
+
 </html>
