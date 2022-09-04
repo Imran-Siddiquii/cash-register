@@ -10,11 +10,11 @@ body{
     background-color: rgb(238, 232, 232);
 }
 .calculator{
-  width: 50vw;
-  height: 70vh;
+  width: fit-content;
+  height: fit-content;
   background-color: white;
   margin: 15px auto;
-  /* align-items: center; */
+  padding: 20px;
   text-align: center;
   box-shadow: 1px 3px 5px 4px lightgray;
   border-radius: 5px;
@@ -30,6 +30,9 @@ body{
   display: block;
   font-size: 1.3rem;
   margin: 10px auto;
+}
+.input1, .input2{
+  margin: 20px auto;
 }
 .input1, .input2 label{
   font-size: 1.2rem;
@@ -50,6 +53,7 @@ body{
   padding: 10px;
 }
 table, th, td {
+  position: relative;
   border: 1px solid black;
   border-collapse: collapse;
   padding: 8px 12px;
@@ -60,7 +64,7 @@ td{
   padding: 8px 12px;
 }
  
-#check-button{
+#check-button , #check-next{
   padding: 8px 10px;
   background-color: rgb(139, 131, 131);
   border: none;
